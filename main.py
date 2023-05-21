@@ -4,23 +4,15 @@ import streamlit as st
 ## Local URL: http://localhost:8501
 ##  Network URL: http://192.168.4.36:8501
 
-
-st.markdown("""
-<style>   
-.css-erpbzb.edgvbvh3 
-.css-1wbqy5l.e10z71041
-.css-q16mip.e10z71040
-.css-14xtw13.e8zbici0
-(
-    visibility: hidden;
-)
-
-</style>                    
-""", unsafe_allow_html=True)
-
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 def main():
-    st.title("Formulario de Registro")
+    st.title("Formulario de Registcccro")
 
     # Pregunta el nombre
     nombre = st.text_input("Ingrese su nombre")
