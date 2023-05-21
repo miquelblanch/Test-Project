@@ -8,6 +8,8 @@ import streamlit as st
 st.markdown("""
 <style>   
 .css-erpbzb.edgvbvh3 
+.css-1wbqy5l.e10z71041
+.css-q16mip.e10z71040
 (
     visibility: hidden;
 )
