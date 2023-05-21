@@ -5,6 +5,16 @@ import streamlit as st
 ##  Network URL: http://192.168.4.36:8501
 
 
+st.markdown("""
+<style>   
+.css-erpbzb.edgvbvh3 
+(
+    visibility: hidden;
+)
+
+</style>                    
+""", unsafe_allow_html=True)
+
 
 def main():
     st.title("Formulario de Registro")
