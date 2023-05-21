@@ -10,6 +10,7 @@ st.markdown("""
 .css-erpbzb.edgvbvh3 
 .css-1wbqy5l.e10z71041
 .css-q16mip.e10z71040
+.css-14xtw13.e8zbici0
 (
     visibility: hidden;
 )
