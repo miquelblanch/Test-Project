@@ -5,12 +5,16 @@ import streamlit as st
 ##  Network URL: http://192.168.4.36:8501
 
 
-st.title("Hi I am Miquel")
-st.subheader("fhiurfhfuirt")
-st.header("djrbrh")
-st.text("hweuybevr")
-st.markdown("---")
-st.caption("fjriu")
-genre = st.radio(
-    "What\'s your favorite movie genre",
-    ('Comedy', 'Drama', 'Documentary'))
+
+def main():
+    st.title("Formulario de Registro")
+
+    # Pregunta el nombre
+    nombre = st.text_input("Ingrese su nombre")
+
+    # Muestra el nombre ingresado
+    if nombre:
+        st.write(f"Hola, {nombre}!")
+
+if __name__ == "__main__":
+    main()
